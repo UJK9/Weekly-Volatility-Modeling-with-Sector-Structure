@@ -1,0 +1,3 @@
+model,n_divergent,n_treedepth_ge12,n_total
+bayes_base,2,0,72000
+bayes_lag,0,0,72000

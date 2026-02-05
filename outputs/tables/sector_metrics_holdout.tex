@@ -1,0 +1,25 @@
+\begin{table}
+
+\caption{\label{tab:tab:sector_metrics_holdout}Sector-level holdout metrics by model.}
+\centering
+\begin{tabular}[t]{llrrr}
+\toprule
+model & sector & n & rmse & cov95\\
+\midrule
+bayes\_base & Finance & 1040 & 0.4727 & 0.9404\\
+bayes\_base & Automotive & 520 & 0.4744 & 0.9346\\
+bayes\_base & Healthcare & 1040 & 0.5170 & 0.9279\\
+bayes\_base & Industrial & 936 & 0.5341 & 0.9028\\
+bayes\_lag & Finance & 1040 & 0.4674 & 0.9452\\
+\addlinespace
+bayes\_lag & Automotive & 520 & 0.4710 & 0.9327\\
+bayes\_lag & Healthcare & 1040 & 0.5185 & 0.9154\\
+bayes\_lag & Industrial & 936 & 0.5263 & 0.9028\\
+har & Automotive & 520 & 0.4890 & 0.3038\\
+har & Finance & 1040 & 0.5151 & 0.2846\\
+\addlinespace
+har & Healthcare & 1040 & 0.5113 & 0.2817\\
+har & Industrial & 936 & 0.5226 & 0.2810\\
+\bottomrule
+\end{tabular}
+\end{table}
